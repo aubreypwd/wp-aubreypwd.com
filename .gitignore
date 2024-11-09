@@ -6,5 +6,5 @@ themes/*
 uploads/
 db.php
 index.php
-!/mu-plugins/tweaks.php
-!/mu-plugins/editor-styles.css
+!mu-plugins/tweaks.php
+!mu-plugins/editor-styles.css
