@@ -17,6 +17,8 @@
 
 	<footer class="entry-meta">
 		<?php publish_posted_on(); ?>
+
+		<!-- Removed on Friday, November 8, 2024 
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$category_list = get_the_category_list( __( ', ', 'publish' ) );
@@ -50,6 +52,7 @@
 				the_title_attribute( 'echo=0' )
 			);
 		?>
+		-->
 
 		<?php edit_post_link( __( 'Edit', 'publish' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
