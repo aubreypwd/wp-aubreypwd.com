@@ -1,10 +1,10 @@
 database
-mu-plugins/*
-!/mu-plugins/tweaks.php
-!/mu-plugins/editor-styles.css
+mu-plugins/
 plugins/
-themes/
-!/themes/publish
+themes/*
+!themes/publish/
 uploads/
 db.php
 index.php
+!/mu-plugins/tweaks.php
+!/mu-plugins/editor-styles.css
