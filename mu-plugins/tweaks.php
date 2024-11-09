@@ -129,17 +129,6 @@ add_action( 'admin_head', function() {
 	echo ob_get_clean();
 } );
 
-// Editor styles.
-add_action( 'admin_init', function() {
-	
-	remove_editor_styles(); // Remove theme editor styles.
-	
-	add_filter( 'mce_css', function() {
-		return WPMU_PLUGIN_URL . '/editor-styles.css'; // Edit this file to change editor styles.
-	} );
-	
-} );
-
 // Post navigation.
 function publish_content_nav_disabled( $nav_id ) {
 	
