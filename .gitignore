@@ -1,0 +1,10 @@
+database
+mu-plugins/*
+!/mu-plugins/tweaks.php
+!/mu-plugins/editor-styles.css
+plugins/
+themes/
+!/themes/publish
+uploads/
+db.php
+index.php
